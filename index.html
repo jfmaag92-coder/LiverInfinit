@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LiverInfinit</title>
+<meta name="robots" content="noindex">
+<script>
+  // Único valor a editar: URL vigente de la implementación de Apps Script (termina en /exec).
+  var DESTINO = "https://script.google.com/macros/s/AKfycbw2rc-KpKPU8q8j1QMZKvooNbWmWx9Kmt4mAEFvIZe3tgphGIVRvaB4js4Fz1YXBAvupg/exec";
+
+  // Conserva parámetros de consulta y hash, si los hubiera.
+  var url = DESTINO + window.location.search + window.location.hash;
+  window.location.replace(url);
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbw2rc-KpKPU8q8j1QMZKvooNbWmWx9Kmt4mAEFvIZe3tgphGIVRvaB4js4Fz1YXBAvupg/exec">
+</noscript>
+</head>
+<body style="font-family: system-ui, sans-serif; margin: 2rem;">
+  <p>Si no es redirigido automáticamente, <a id="enlace" href="https://script.google.com/macros/s/AKfycbw2rc-KpKPU8q8j1QMZKvooNbWmWx9Kmt4mAEFvIZe3tgphGIVRvaB4js4Fz1YXBAvupg/exec">acceda aquí</a>.</p>
+  <script>
+    document.getElementById("enlace").href = DESTINO;
+  </script>
+</body>
+</html>
